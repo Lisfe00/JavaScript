@@ -32,3 +32,13 @@ const allelements = document.getElementsByTagName('li') // seleciona os item pel
 
 console.log(allelements);
 
+
+const titulo = document.querySelector('.titulo');
+
+console.log(titulo);
+
+titulo.textContent = "JavaScript  para Experts";
+
+const itens = document.querySelector('.items');
+
+console.log(itens.children[0].textContent = "Item dois");
