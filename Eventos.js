@@ -26,3 +26,5 @@ submitbutton.addEventListener("click", function(event){ //cria um evento para a 
     items.children[1].textContent = emailValue;
     items.lastElementChild.textContent = "Tudo Certo!!";
 });
+
+
